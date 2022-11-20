@@ -25,7 +25,6 @@ scissors = '''
 ---.__(___)
 '''
 
-#Write your code below this line 👇
 import random
 game_images = [rock, paper, scissors]
 
@@ -36,13 +35,6 @@ if int_your_input >= 3 or int_your_input < 0:
   print('You choose invalid number, you lose!')
 else:
   print(game_images[int_your_input])
-
-# if int_your_input == 0:
-#   print(rock)
-# elif int_your_input == 1:
-#   print(paper)
-# else:
-#   print(scissors)
 
 computer_input = int(random.randint(0, 2))
 print(f"Computer choose: {computer_input}")
